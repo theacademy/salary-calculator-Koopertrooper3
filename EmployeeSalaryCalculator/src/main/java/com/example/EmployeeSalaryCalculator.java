@@ -72,7 +72,7 @@ public class EmployeeSalaryCalculator
 					overTimeRate = hourlyRate * 2;
 					overTimePay = overTimeRate*overTime;
 					grossSalary = (hourlyRate * standardWorkingHours) + overTimePay;
-
+					// Final commit
 					//YOUR CODE ENDS HERE
 				}
 				return grossSalary;
